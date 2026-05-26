@@ -16,7 +16,6 @@
 }
 
 
-
 .modal-backdrop {
   z-index: 9998 !important;
 }
@@ -131,26 +130,31 @@ hr {
 .footer p{
     text-align: center;
     padding: 10px 0;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 200;
     
 }
 .footer p strong{
-    font-weight: 300;    
+    font-weight: bolder;  
+    color: var(--blue);  
 }
 
 h5{
     text-align: center;
-    color: #fff;
+    color:var(--blue);
     margin: 20px;
 
 }
 
 i {
+    margin-top: 12px;
+    color: #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
-    font-size: xx-large;
-    margin-top: 20px;
-    padding: 5px;
+    padding: 12px;
+    font-size: large;
 }
+
 
 i:hover {
     scale: 1.5;
